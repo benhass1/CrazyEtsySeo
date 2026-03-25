@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Crazy SEO Rank Optimizer",
+  "version": "1.0.0",
+  "description": "Bulk image renamer and SEO metadata injector.",
+  "action": {
+    "default_title": "Open SEO Optimizer"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "storage"]
+}
